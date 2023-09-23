@@ -17,6 +17,7 @@ header{
 header h1{
     font-size: 4em;
     font-family: arial;
+    margin-bottom: 2%;
 }
 
 /**Setting the overview div element**/
