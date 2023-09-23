@@ -14,11 +14,20 @@ header{
     font-family: Arial, monospace, sans-serif;
 }
 
+header h1{
+    font-size: 4em;
+    font-family: arial;
+}
+
 /**Setting the overview div element**/
+main{
+    margin: auto;
+    width: 70%;
+}
 .overview{
     text-align: center;
     margin: auto;
-    width: 90%;
+    width: 70%;
     border-bottom: 6px solid rgb(61, 84, 163);
     padding: 2%;
     border-radius: 5%/5%;
@@ -51,7 +60,7 @@ header{
     padding: 2%;
     border-radius: 5%/5%;
     margin: auto;
-    width: 90%;
+    width: 70%;
     font-family: monospace, sans-serif, 'Courier New';
 }
 
