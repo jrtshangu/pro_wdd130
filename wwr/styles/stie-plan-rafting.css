@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: rgb(137, 137, 243);
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    color: rgb(2, 2, 29);
+    
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(0, 0, 19);
+   
+    
+}
+header nav{
+     padding: 2%;
+    
+}
+header figure{
+    display: inline-flex;
+    float: left;
+    margin: 2%;
+    text-align: center;
+}
+header figure img{
+    width: 7em;
+    border-radius: 50%/50%;
+}
+
+
+header a{
+    margin-left: 5%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+    inline-size: 2em;
+    padding: 2%;
+}
+
+header a:hover{
+    transition: all 0.02s ease-in-out;
+    background-color: rgb(46, 40, 109);
+    border-radius: 10%/50%;
+    opacity: 0.8;
+}
+
+main{
+    margin: 0 auto;
+    width: 70%;
+}
+
+main .main{
+   
+    display: block;
+}
+main .main .mainheader h2{
+    background-color: rgb(46, 40, 109);
+    color: white;
+    text-align: center;
+    padding: 2%;
+    border-radius: 10%/50%;
+    margin-top: 2%;
+
+}
+
+main .main .mainheader{
+    background-color: white;
+    border-radius: 10%/50%;
+    
+}
+main .main .mainheader p{
+    padding: 2%;
+}
+main h3{
+    background-color: white;
+    padding: 2%;
+    margin-top: 4%;
+}
+
+main .navigations{
+    display: inline-flex;
+    background-color: white;
+    text-align: center;
+    padding: 3%;
+   
+   
+ }
+
+ main .navigations img{
+    width: 8.6em;
+ }
+
+ main .navigations .ss img{
+    border-radius: 50%/50%;
+    width: 7em;
+ }
+
+ main .navigations .mas, .lik, .ss{
+    background-color: rgb(46, 40, 109);
+    margin-left: 2%;
+    display: block;
+    color: white;
+ }
+ main .navigations .mas, .lik, .ss, a:hover{
+    transition: all 0.02s ease-in;
+    box-shadow: 2px 2px 10px rgb(253, 253, 253);
+ }
+
+ .navigations a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 0, 19);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    padding: 1%;
+    letter-spacing: 2px;
+    margin-top: 3%;
+    border-radius: 10%/50%;
+ }
+
+ main .navigations h2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: rgb(0, 0, 19);
+    text-align: center;
+    border-radius: 10%/50%;
+ }
+ main .navigations p{
+    margin-top: 3%;
+    margin-bottom: 3%;
+ }
+
+
+ footer{
+    background-color: rgb(46, 40, 109);
+    color: white;
+    margin-top: 10%;
+    padding: 2%;
+    
+ }
+ .footers img{
+    width: 8em;
+    margin-left: 2%;
+ }
+footer .footers .contacts{
+    float: left;
+    background-color: white;
+    margin-right: 2%;
+    color: black;
+    padding: 2%;
+}
+
+footer .footers .copyright{
+    text-align: center;
+    background-color: white;
+    color: rgb(46, 40, 109);
+    padding: 2%;
+   
+
+}
+ footer #logo img{
+    border-radius: 50%/50%;
+ }
+.footers{
+    display: inline-flex;
+}
+
+
+
