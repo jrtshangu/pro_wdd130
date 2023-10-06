@@ -12,12 +12,13 @@ header {
 header img{
     width: 7em;
     border-radius: 50%/50%;
+    margin: 2%;
 }
 
 header nav a{
     font-size: 1.3em;
     padding: 1%;
-    margin: 1%;
+    margin: 0.3%;
 }
 
 #background {
