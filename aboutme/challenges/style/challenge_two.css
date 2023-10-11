@@ -20,15 +20,29 @@ header h1{
 
 main{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 5%;
 }
 
 main .video-display{
-    border: 6px double rgb(70, 76, 133);
+    width: 100%;
+    
 }
-
+main .video-display img{
+    width: 100%;
+}
+img{
+    width: 98%;
+    border: 2px solid rgb(70, 76, 133);
+}
 .aside{
     border: 2px solid rgb(70, 76, 133);
-    
+
+}
+
+.other{
+    text-align: center;
+}
+.other img{
+    width: 80%;
 }
