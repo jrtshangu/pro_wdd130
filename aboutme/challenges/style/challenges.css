@@ -40,15 +40,19 @@ footer{
     margin-top: 18%;
     background-color: rgb(93, 112, 128);
     padding: 2%;
-    
+    margin: 10% auto;
     
 }
 
 footer .footer{
     display: grid;
-    grid-gap: 8%;
-    grid-template-columns: 8em 8em 8em;
-
+    grid-gap: 2%;
+    grid-template-columns: repeat(3, 1fr);
+    display: inline-flex;
+}
+.footer{
+    margin: auto;
+    width: 90%;
 }
 .footer img{
     height: 10em;
