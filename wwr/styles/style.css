@@ -6,6 +6,7 @@ body {
     background-color: #fcfbfb; 
 }
 
+/*Setting header elements*/
 header {
     background-color:rgba(20,30,13, .7);
 }
@@ -29,28 +30,42 @@ header nav a:hover {
     background-color: black;
 }
 
+/*Working on all the main elements*/
+main{
+    text-align: center;
+    display: block;
+}
+
+/*Working on Book Now button*/
 .button-box{
     background-color: black;
     text-align: center;
+    margin: 0 auto;
+    width: 10%;
+    padding: 0.2%;
+    border: 2px solid goldenrod;
+    border-radius: 25%/50%;
+}
+.button-box{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .button-box a{
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.2em;
     color: white;
+    
     
 }
 .button-box:hover{
     transition: all 0.02s ease-in-out;
     background-color: red;
 }
+
 .icon {
     width: 80px;
 }
 
-main{
-    text-align: center;
-    display: block;
-}
 
 h2{
     margin: 1%;
@@ -60,6 +75,8 @@ nav a {
     color: #fcfbfb;
     text-decoration: none;
 }
+
+/*Setting footer elements*/
 
 footer{
     background-color: rgba(20,30,13, .7);
