@@ -25,7 +25,7 @@ h1{
 main p{
     font-size: 2em;
     text-align: right;
-    margin-right: 4%;
+    margin: 10% auto;
     color: rgb(93, 112, 128);
     -webkit-text-stroke: 1px rgb(237, 238, 241);
     letter-spacing: 2px;
