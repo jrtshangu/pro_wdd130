@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+body{
+    background-color: rgb(196, 203, 238);
+}
 header{
     background-color: rgb(70, 76, 133);
    
