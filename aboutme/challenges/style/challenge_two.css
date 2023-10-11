@@ -10,7 +10,12 @@ header{
 header a{
     text-decoration: none;
     color: white;
-    font-size: 2em;  
+    font-size: 2em; 
+    margin-right: 2%;
+    position: relative; 
+}
+a{
+    right: -50%;
 }
 header h1{
     text-align: center;
