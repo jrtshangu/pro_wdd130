@@ -33,11 +33,13 @@ main{
 }
 
 main .video-display{
+    grid-column-start: 1;
+    grid-column-end: 2;
     width: 100%;
-    
+
 }
 main .video-display img{
-    width: 100%;
+    padding: 2%;
 }
 img{
     width: 98%;
