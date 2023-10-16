@@ -14,6 +14,7 @@ header img{
     width: 7em;
     border-radius: 50%/50%;
     margin: 2%;
+    border: 2px solid rgb(105, 90, 8);
 }
 
 header nav a{
