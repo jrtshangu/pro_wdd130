@@ -14,7 +14,10 @@ header img{
     width: 7em;
     border-radius: 50%/50%;
     margin: 2%;
-    border: 2px solid rgb(105, 90, 8);
+    
+}
+#logo_link img{
+    border: 3px solid rgb(112, 96, 3);
 }
 
 header nav a{
