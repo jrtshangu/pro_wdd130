@@ -40,6 +40,9 @@ main{
     display: block;
 }
 
+#hero-msg{
+    text-align: center;
+}
 /*Working on Book Now button*/
 .button-box{
     background-color: black;
