@@ -88,6 +88,19 @@ nav a {
     border: 2px solid goldenrod;
 }
 
+.boxes{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+   
+}
+.boxes #box{
+    background-color: rgb(8, 58, 8);
+    border: 2px solid goldenrod;
+    height: 20em;
+    width: 20em;
+}
+
 /*Setting footer elements*/
 
 footer{
