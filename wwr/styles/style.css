@@ -63,21 +63,29 @@ main{
 }
 .button-box:hover{
     transition: all 0.02s ease-in-out;
-    background-color: red;
+    background-color: goldenrod;
 }
 
 .icon {
     width: 80px;
+    border: 3px solid goldenrod;
+    border-radius: 50%/50%;
 }
 
 
 h2{
     margin: 1%;
+    letter-spacing: 2px;
 }
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+}
+
+/*Setting borders for these elements*/
+.card-img{
+    border: 2px solid goldenrod;
 }
 
 /*Setting footer elements*/
@@ -107,5 +115,17 @@ footer a{
     display: inline-flex;
     color: white;
     margin-top: 2%;
-}    
+} 
+
+.social{
+    margin-left: 5%;
+}
+.social img{
+    border-radius: 50%/50%;
+    margin-left: 2%;
+}
+
+.social img:hover{
+    opacity: 0.7;
+}
   
