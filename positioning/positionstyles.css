@@ -2,6 +2,9 @@
 /* Activity 1 styles */
 .content1 {
   /* This is the parent of the activity 1 boxes. */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5%;
 
 }
 .red1 { 
